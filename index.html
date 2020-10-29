@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME Inc.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/logo.png" alt="logo">
+        </header>
+        <section class="main">
+            <div class="counter-panel">
+                <div class="counter">
+                    00:00
+                </div>
+                <div class="counter-control">
+                    <a href="javascript:void(0)">                    
+                        <img id="play-pause-btn" class="paused" src="img/play.png" alt="play pause">
+                    </a>
+                </div>
+            </div>
+            <div class="activities">
+                <div class="insert-activity">
+                    <input type="text" class="activity-name-input" placeholder="Insira o nome da atividade">
+
+                    <button class="add-activity">
+                        <img src="img/add.png" alt="adicionar tarefa"> Adicionar tarefa
+                    </button>
+                </div>
+
+                <div class="activities-list">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="counter.js"></script>
+</body>
+</html>
